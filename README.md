@@ -5,57 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio - Luciane Rodrigues Da Silva</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Inter', sans-serif;
-      background-color: #000000; /* Fundo preto */
-      color: #fff; /* Texto branco */
-      line-height: 1.6;
-    }
-    header {
-      background-color: #2d2d2d;
-      color: pink;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      color: #ffd700; /* Dourado */
-    }
-    nav a {
-      color: pink;
-      margin: 0 1rem;
-      text-decoration: none;
-    }
-    section {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h2, h3 {
-      color: #ffd700; /* Dourado */
-    }
-    p, li {
-      color: white; /* Texto branco */
-    }
-    .projeto {
-      margin-bottom: 2rem;
-    }
-    footer {
-      background-color: #2d2d2d;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
-    footer p {
-      color: #ffd700; /* Dourado */
-    }
-    @media (max-width: 600px) {
-      header, footer {
-        padding: 1rem;
-      }
-    }
-  </style>
+
 </head>
 <body>
   <header>

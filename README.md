@@ -15,7 +15,7 @@
     }
     header {
       background-color: #2d2d2d;
-      color: white;
+      color: pink;
       padding: 2rem;
       text-align: center;
     }
@@ -23,7 +23,7 @@
       color: #ffd700; /* Dourado */
     }
     nav a {
-      color: white;
+      color: pink;
       margin: 0 1rem;
       text-decoration: none;
     }

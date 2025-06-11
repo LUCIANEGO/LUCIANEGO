@@ -6,6 +6,7 @@
     <title>Luciane Rodrigues - Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
   </head>
   <body class="font-inter bg-gray-100 text-gray-800">
     <header class="bg-blue-900 text-white p-6 text-center shadow-md">
@@ -53,8 +54,20 @@
 
       <section id="contato" class="my-8">
         <h2 class="text-2xl font-semibold text-blue-900">Contato</h2>
-        <p>Email: <a href="mailto:lucianerodrigues.go@gmail.com" class="text-blue-700 underline">lucianerodrigues.go@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/luciane-rodrigues-159369184" target="_blank" class="text-blue-700 underline">/luciane-rodrigues</a></p>
+        <div class="flex items-center gap-4 mt-2">
+          <a href="mailto:lucianerodrigues.go@gmail.com" class="flex items-center gap-2 text-blue-700 hover:underline">
+            <i class="ph ph-envelope"></i> Email
+          </a>
+          <a href="https://www.linkedin.com/in/luciane-rodrigues-159369184" target="_blank" class="flex items-center gap-2 text-blue-700 hover:underline">
+            <i class="ph ph-linkedin-logo"></i> LinkedIn
+          </a>
+          <a href="https://github.com/LUCIANEGO" target="_blank" class="flex items-center gap-2 text-blue-700 hover:underline">
+            <i class="ph ph-github-logo"></i> GitHub
+          </a>
+          <a href="curriculo-luciane.pdf" download class="flex items-center gap-2 text-blue-700 hover:underline">
+            <i class="ph ph-file-arrow-down"></i> Baixar Currículo
+          </a>
+        </div>
       </section>
     </main>
 

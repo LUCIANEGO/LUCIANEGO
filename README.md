@@ -2,10 +2,7 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-  
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" 
   </head>
   <body class="font-inter bg-gray-100 text-gray-800">
     <header class="bg-blue-900 text-white p-6 text-center shadow-md">

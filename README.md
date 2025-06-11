@@ -1,69 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luciane Rodrigues - Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-inter bg-gray-100 text-gray-800">
+    <header class="bg-blue-900 text-white p-6 text-center shadow-md">
+      <h1 class="text-3xl font-bold">Luciane Rodrigues Da Silva</h1>
+      <nav class="mt-4 space-x-4">
+        <a href="#sobre" class="hover:underline">Sobre</a>
+        <a href="#educacao" class="hover:underline">Educação</a>
+        <a href="#experiencia" class="hover:underline">Experiência</a>
+        <a href="#projetos" class="hover:underline">Projetos</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+      </nav>
+    </header>
 
-</head>
-<body>
-  <header>
-    <h1>Luciane Rodrigues Da Silva</h1>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#educacao">Educação</a>
-      <a href="#experiencia">Experiência</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
-    </nav>
-  </header>
+    <main class="max-w-4xl mx-auto p-6">
+      <section id="sobre" class="my-8">
+        <h2 class="text-2xl font-semibold text-blue-900">Quem Sou Eu</h2>
+        <p class="mt-2">
+          Graduanda em Análise e Desenvolvimento de Sistemas pela UNIDESC e pós-graduanda em Ciência de Dados pela Faculdade Iguaçu. Apaixonada pela área de back-end, também possuo experiência com marketing digital e web design. Sou curiosa por natureza e tenho como objetivo criar sistemas inteligentes, com forte atuação na análise e manipulação de dados.
+        </p>
+      </section>
 
-  <section id="sobre">
-    <h2>Quem Sou Eu</h2>
-    <p>
-      Graduanda em Análise e Desenvolvimento de Sistemas pela UNIDESC e pós-graduanda em Ciência de Dados pela Faculdade Iguaçu. Apaixonada pela área de back-end, também possuo experiência com marketing digital e web design. Sou curiosa por natureza e tenho como objetivo criar sistemas inteligentes, com forte atuação na análise e manipulação de dados.
-    </p>
-  </section>
+      <section id="educacao" class="my-8">
+        <h2 class="text-2xl font-semibold text-blue-900">Educação</h2>
+        <ul class="list-disc ml-6 mt-2">
+          <li>UNIDESC – Graduação em Análise e Desenvolvimento de Sistemas (Em andamento)</li>
+          <li>Faculdade Iguaçu – Pós-Graduação em Ciência de Dados (Em andamento)</li>
+        </ul>
+      </section>
 
-  <section id="educacao">
-    <h2>Educação</h2>
-    <ul>
-      <li>UNIDESC – Graduação em Análise e Desenvolvimento de Sistemas (Em andamento)</li>
-      <li>Faculdade Iguaçu – Pós-Graduação em Ciência de Dados (Em andamento)</li>
-    </ul>
-  </section>
+      <section id="experiencia" class="my-8">
+        <h2 class="text-2xl font-semibold text-blue-900">Experiência Profissional</h2>
+        <ul class="list-disc ml-6 mt-2">
+          <li><strong>Rise Company (1 ano e 8 meses)</strong> – Backoffice, suporte, atendimento ao cliente, responsável pelas demandas dos designers e videomakers, estrategista digital e social media em diversos segmentos.</li>
+          <li><strong>Grupo Chama Supermercados (2 anos e 3 meses)</strong> – Auditor interno, responsável por precificações, controle de validade, comparações de preços, cartazeamento e atendimento ao cliente.</li>
+          <li><strong>Clínica Odontológica</strong> – Auxiliar administrativo em logística e gestão durante o período pandêmico.</li>
+        </ul>
+      </section>
 
-  <section id="experiencia">
-    <h2>Experiência Profissional</h2>
-    <ul>
-      <li><strong>Rise Company (1 ano e 8 meses)</strong> – Backoffice, suporte, atendimento ao cliente, responsável pelas demandas dos designers e videomakers, estrategista digital e social media em diversos segmentos.</li>
-      <li><strong>Grupo Chama Supermercados (2 anos e 3 meses)</strong> – Auditor interno, responsável por precificações, controle de validade, comparações de preços, cartazeamento e atendimento ao cliente.</li>
-      <li><strong>Clínica Odontológica</strong> – Auxiliar administrativo em logística e gestão durante o período pandêmico.</li>
-    </ul>
-  </section>
+      <section id="projetos" class="my-8">
+        <h2 class="text-2xl font-semibold text-blue-900">Projetos Destacados</h2>
+        <div class="bg-white p-4 rounded-lg shadow mt-4">
+          <p><strong>Em breve!</strong> Estou atualizando meu portfólio com os projetos mais recentes. Fique de olho!</p>
+        </div>
+      </section>
 
-  <section id="projetos">
-    <h2>Projetos Destacados</h2>
-    <div class="projeto">
-      <p><em>(Você pode adicionar projetos com links e descrições aqui)</em></p>
-    </div>
-  </section>
+      <section id="contato" class="my-8">
+        <h2 class="text-2xl font-semibold text-blue-900">Contato</h2>
+        <p>Email: <a href="mailto:lucianerodrigues.go@gmail.com" class="text-blue-700 underline">lucianerodrigues.go@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/luciane-rodrigues-159369184" target="_blank" class="text-blue-700 underline">/luciane-rodrigues</a></p>
+      </section>
+    </main>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Email: <a href="mailto:lucianerodrigues.go@gmail.com">lucianerodrigues.go@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/luciane-rodrigues-159369184" target="_blank">/luciane-rodrigues</a></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Luciane Rodrigues Da Silva</p>
-  </footer>
-</body>
+    <footer class="bg-blue-900 text-white text-center p-4 mt-10">
+      <p>&copy; 2025 Luciane Rodrigues Da Silva</p>
+    </footer>
+  </body>
 </html>
-
-
-<!---
-LUCIANEGO/LUCIANEGO is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->

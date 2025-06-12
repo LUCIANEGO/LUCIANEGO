@@ -2,10 +2,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luciane Rodrigues - Portfólio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+   
   </head>
   <body class="font-inter bg-gray-100 text-gray-800">
     <header class="bg-blue-900 text-white p-6 text-center shadow-md">

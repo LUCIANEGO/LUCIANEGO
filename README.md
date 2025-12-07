@@ -1,64 +1,23 @@
 
-Este aplicativo foi desenvolvido como atividade prática da disciplina Programação para Aplicativos Móveis, aplicando conceitos de Navegação, Hooks, consumo de API, gerenciamento de estado e persistência local.
+# IA Propósito - App Expo (Mobile)
 
-O tema escolhido foi IA Propósito, uma ferramenta para auxiliar o usuário com reflexões diárias, organização e registro do seu progresso pessoal.
+Este projeto é uma versão mobile do aplicativo IA Propósito, para a disciplina de Aplicativos Móveis.
+Funcionalidades:
+- Chat (envio de mensagens)
+- Simulação de resposta da IA (mock API)
+- Registro local das interações (AsyncStorage)
+- Tela de histórico com todas as interações e filtragem das marcadas como úteis
 
-Funcionalidades
+## Como executar
 
-✔️ Interface com 3 telas principais
-✔️ Navegação via Bottom Tab Navigation
-✔️ Campo de entrada (TextInput) controlado com State
-✔️ Simulação de API com função assíncrona
-✔️ Histórico persistido com AsyncStorage (dados locais)
-✔️ Feedback marcável como “útil”
-✔️ Consumo (mockado) via useEffect para simular busca remota
+1. Instale o Expo CLI:
+   npm install --global expo-cli
 
- Estrutura das Telas
- Home
+2. Instale dependências:
+   npm install
 
-Apresentação e introdução do propósito do app.
+3. Rode o app:
+   npm start
+   (ou expo start)
 
-💬 Chat
-
-Entrada de texto do usuário
-
-Geração simulada de resposta da IA
-
-Registro automático no histórico
-
-📜 Histórico
-
-Lista todas as interações salvas
-
-Permite marcar respostas como úteis
-
-Usa useEffect para carregar dados salvos
-
-🔧 Tecnologias Utilizadas
-
-React Native / Expo
-
-React Navigation (Bottom Tabs)
-
-Hooks (useState / useEffect)
-
-AsyncStorage
-
-JavaScript
-
-Flexbox para layout responsivo
-
-🚀 Como Executar
-1️⃣ Instalar dependências
-
-2️⃣ Rodar o aplicativo
-
-3️⃣ Abrir no celular
-
-Instale o app Expo Go
-Leia o QR Code no terminal
-
-Esse é um projeto autentico. Consta nos arquivos um pdf de como a Ideia da IA PROPÓSITO surgiu. 
-Dev. Luciane Rodrigues
-
-
+O app usará React Navigation (Bottom Tabs) e AsyncStorage para persistência local.
